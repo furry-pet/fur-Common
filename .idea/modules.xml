@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fur-common.iml" filepath="$PROJECT_DIR$/.idea/modules/fur-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iml" />
     </modules>
   </component>
 </project>
