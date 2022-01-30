@@ -3,7 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fur-common.iml" filepath="$PROJECT_DIR$/.idea/modules/fur-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/fur-common.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/fur-common.sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.androidAndroidTestRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosX64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosX64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosX64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/fur-common.shared.iosX64Test.iml" />
     </modules>
   </component>
 </project>

@@ -19,6 +19,16 @@ kotlin {
         framework {
             baseName = "shared"
         }
+
+        pod("FirebaseAnalytics") {
+            version = "~> 8.11"
+        }
+        pod("FirebaseAuth") {
+            version = "~> 8.11"
+        }
+        pod("FirebaseFirestore") {
+            version = "~> 8.11"
+        }
     }
     
     sourceSets {
@@ -29,8 +39,16 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
-        val androidMain by getting
+        val androidMain by getting {
+            dependsOn(commonMain)
+            dependencies {
+                implementation("com.google.firebase:firebase-analytics-ktx:20.0.2")
+                implementation("com.google.firebase:firebase-auth-ktx:21.0.1")
+                implementation("com.google.firebase:firebase-firestore-ktx:24.0.1")
+            }
+        }
         val androidTest by getting {
+            dependsOn(commonTest)
             dependencies {
                 implementation(kotlin("test-junit"))
                 implementation("junit:junit:4.13.2")

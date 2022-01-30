@@ -13,7 +13,9 @@ Pod::Spec.new do |spec|
 
     spec.ios.deployment_target = '14.1'
 
-                
+    spec.dependency 'FirebaseAnalytics', '~> 8.11'
+    spec.dependency 'FirebaseAuth', '~> 8.11'
+    spec.dependency 'FirebaseFirestore', '~> 8.11'
 
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':shared',
